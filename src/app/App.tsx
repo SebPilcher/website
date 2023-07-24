@@ -1,13 +1,12 @@
-import './App.css'
-import Titlebar from './titlebar/titlebar'
+import './App.module.css'
+import Titlebar from './titlebar/Titlebar'
 
 function App() {
 
   return (
     <>
       <Titlebar></Titlebar>
-      <p>Yo this is my website.</p>
-      <h1>ss</h1>
+      <p>This is my website.</p>
     </>
   )
 }
