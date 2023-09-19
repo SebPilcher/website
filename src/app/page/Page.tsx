@@ -1,11 +1,10 @@
-
 function Page() {
-    return (
-        <div>
-            <p>Test</p>
-        </div>
 
-    )
+        return(
+            <div>
+                <p>hi</p>
+            </div>
+        )   
 }
 
 
