@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.bar{
+    display: flex;
+    padding: 0px 320px;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch; 
+    background: #343A40; 
+}
+.logo {
+    width: 100px;
+    height: 100px; 
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    filter: drop-shadow(0px 4px 4px #000); 
+}
+.header{
+    color: #FFF;
+    text-shadow: 0px 4px 4px #000;
+    font-family: Bruno Ace, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.sect1{
+    display: flex;
+    align-items: center;
+    gap: 32px; 
+}
+.home{
+    background-color: #00000000;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    border: none;
+    background-color: none;
+}
+.project{
+    background-color: #00000000;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    border: none;
+}
+.outerPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #212529;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.innerPage{
+    width: 1280px;
+    flex: 1 0 0;
+    background: #495057;
+}
