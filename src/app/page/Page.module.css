@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand&display=swap");
+.t1{
+    color: #fff;
+    font-family: Khand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 8.67%;
+    padding-top: 3%;
+    margin: 0;
+}
+.t2{
+    color: #FFF;
+    font-family: Khand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 12%
+}
+.img1{
+    width: 13%;
+    padding-left: 10%;
+    padding-top: 10%
+}
+.img2{
+    width: 66%;
+    padding-left: 8%;
+}
+.filler{
+    height: 100%;
+}
