@@ -1,9 +1,11 @@
 import styles from './App.module.css'
 import Page from './page/Page'
+import Page2 from './page2/Page2'
 import {useState} from 'react'
 
 
 function App() {
+
 
   const [value, setValue] = useState<number>(0);
 
@@ -23,7 +25,6 @@ function App() {
         <div className={styles.bar}>
 
           <div className={styles.sect1}>
-              <p>Count: {value}</p>
               <img className={styles.logo} src="./logo.png"></img>
               <p className={styles.header}>filelocker</p>
 
@@ -35,7 +36,7 @@ function App() {
 
         <div className={styles.outerPage}>
           <div className={styles.innerPage}>
-
+            {value ? <Page2></Page2> : <Page></Page>}
           </div>
         </div>
       </div>
